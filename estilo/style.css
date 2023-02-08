@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+body {
+    background: black url('../imagens/sangue.png') top no-repeat fixed;
+    background-color: black;
+    background-image: url('../imagens/sangue.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-position: top;
+    background-color: black;
+}
+
+header img#logo {
+    width: 100px;
+}
