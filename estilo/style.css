@@ -7,20 +7,60 @@
 }
 
 body {
-    background: black url('../imagens/sangue.png') top no-repeat fixed;
-    background-color: black;
-    background-image: url('../imagens/sangue.png');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: rgb(20, 20, 20) url('../imagens/sangue.png') top no-repeat fixed;
     background-size: cover;
+    margin: 0px auto;
 }
 
 header {
     background-position: top;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
+    width: 100vw;
+    padding: 15px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.material-icons {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+menu {
+    display: none;
+}
+
+menu a {
+    text-decoration: none;
+}
+
+menu li {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
 }
 
 header img#logo {
     width: 100px;
+}
+
+article img {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main > div > img#foto1 {
+    height: 50vh;
+}
+
+main > div > img#foto1:hover {
+    background-image: url('../imagens/foto1\ -\ costas.webp');
+    transition: .5;
 }
