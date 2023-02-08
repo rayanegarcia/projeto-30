@@ -4,6 +4,7 @@
     padding: 0px;
     margin: 0px;
     color: white;
+    font-family: ;
 }
 
 body {
@@ -62,5 +63,5 @@ main > div > img#foto1 {
 
 main > div > img#foto1:hover {
     background-image: url('../imagens/foto1\ -\ costas.webp');
-    transition: .5;
+    cursor: pointer;
 }
